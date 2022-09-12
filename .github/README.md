@@ -54,25 +54,6 @@ For more information on the technologies that power the AviaxMusic, check out th
 
 - Generate a Pyrogram String Session via [Replit](https://replit.com/@SuryaModsYT/SURYA-MUSIC-SESSION-GEN)
 
-## 🖇 VPS Deployment
-
-> Checkout [Docs](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/local-hosting-or-vps) for Detailed Explanation on VPS Deploy
-
-
-```console
-shikhar@MacBook~ $ git clone https://github.com/SuryaModsYT/SuryaModsMusicBot
-shikhar@MacBook~ $ cd SuryaModsMusicBot
-shikhar@MacBook~ $ sudo bash setup
-```
-> Setup will install each and every requirement, nodejs and pip packages automatically. After successfull installation of requirements , setup will ask you to input your vars.
-> Please input your vars correctly.
-
-```console
-shikhar@MacBook~ $ bash start
-```
-
-> Not Getting VPS Method? [Watch Tutorial](https://telegram.me/TheYukki/2275)
-
 
 <img src="https://telegra.ph/file/6b75b57da50ef1183fcdc.jpg" align="center">
 
@@ -81,8 +62,8 @@ shikhar@MacBook~ $ bash start
 
 Reach out to the maintainer at one of the following places:
 
-- [Updates Channel](https://telegram.me/SuryaBots)
-- [Support Group](https://telegram.me/SuryaBotsSupport)
+- [Updates Channel](https://telegram.me/)
+- [Support Group](https://telegram.me/)
 
 ## 🎗 Project assistance
 
