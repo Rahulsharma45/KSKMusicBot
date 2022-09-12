@@ -3,7 +3,7 @@
 <h3>⚠️ This repo is just a clone of YukkiMusic</a>. All credits goes to devs of YukkiMusicBot.</h3>
 
 
-# SuryaMusic
+# KSK Music
 
 [SuryaMusic](https://github.com/SuryaModsYT/SuryaModsMusicBot) is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
 
