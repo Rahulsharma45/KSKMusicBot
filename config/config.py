@@ -72,16 +72,16 @@ SUPPORT_GROUP = getenv(
 )  # Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
-    getenv("ASSISTANT_LEAVE_TIME", "3100")
+    getenv("ASSISTANT_LEAVE_TIME", None)
 )  # Remember to give value in Seconds
 
 # Time after which bot will suggest random chats about bot commands.
 AUTO_SUGGESTION_TIME = int(
-    getenv("AUTO_SUGGESTION_TIME", "3000")
+    getenv("AUTO_SUGGESTION_TIME", None)
 )  # Remember to give value in Seconds
 
 # Set it True if you want to delete downloads after the music playout ends from your downloads folder
@@ -110,14 +110,14 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "2"))
 
 # Maximum Limit Allowed for users to save playlists on bot's server
-SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "15"))
+SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "10"))
 
 # MaximuM limit for fetching playlist's track from youtube, spotify, apple links.
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "15"))
 
 # Cleanmode time after which bot will delete its old messages from chats
 CLEANMODE_DELETE_MINS = int(
-    getenv("CLEANMODE_MINS", "10")
+    getenv("CLEANMODE_MINS", "15")
 )  # Remember to give value in Seconds
 
 
@@ -142,11 +142,11 @@ STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
 
 
-#      ____  ___          __   __ _    _  _____ _____ _____   ____   ____ _______
-#      |  | /  /           |  \/  | |  | |/ ____|_   _/ ____| |  _ \ / __ \__   __|
-#      | '  /             | \  / | |  | | (___   | || |      | |_) | |  | | | |
+#       __   ___           __  __ _    _  _____ _____ _____   ____   ____ _______
+#      |  | /  /          |  \/  | |  | |/ ____|_   _/ ____| |  _ \ / __ \__   __|
+#      | '   /            | \  / | |  | | (___   | || |      | |_) | |  | | | |
 #      |  < <             | |\/| | |  | |\___ \  | || |      |  _ <| |  | | | |
-#      | .  \             | |  | | |__| |____) |_| || |____  | |_) | |__| | | |
+#      | .   \            | |  | | |__| |____) |_| || |____  | |_) | |__| | | |
 #      |__| \__\          |_|  |_|\____/|_____/|_____\_____| |____/ \____/  |_|
 
 
