@@ -40,7 +40,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001644049633"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "KsKOP MUSICBOT")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Katie MUSICBOT")
 
 # Your User ID.
 OWNER_ID = list(
@@ -61,7 +61,7 @@ UPSTREAM_REPO = getenv(
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 # GIT TOKEN ( if your edited repo is private)
-GIT_TOKEN = getenv("GIT_TOKEN", "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")
+GIT_TOKEN = getenv("GIT_TOKEN", "")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
@@ -107,7 +107,7 @@ SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
 # Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram
-VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "2"))
+VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "3"))
 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "10"))
@@ -117,7 +117,7 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "15"))
 
 # Cleanmode time after which bot will delete its old messages from chats
 CLEANMODE_DELETE_MINS = int(
-    getenv("CLEANMODE_MINS", "10")
+    getenv("CLEANMODE_MINS", "5")
 )  # Remember to give value in Seconds
 
 
@@ -135,7 +135,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BQAiocgRSj_G7zMK5Av2LjNG37ltzcIPRco7DDo47hxlFMAF6qA5j6QwB2RZsi3tW4K2sFO-a332I1deqXOZNzi5Vov6lJqpphN12J856SxkwsnwYbwuJTsh9hHcFP0TjJoAo7z9EFG6Mu9M69WlgY5VaqjwsbIasYDoezIC5WOwc_5upWHC_YubMLKsTabJb6j_6bewpKwGYo_l_msy17RnXVlsf2SMnmcCStVBNOCpjAw0eIFhVQIsyKDgI_3-5VRTn1Vllvvo-VMKJWpB938qnLuK5nL0yLokqTnZU3lytV0zro6KtFw_6byJgyZUUB8Y-lfe9qTkL4dTi1lHmO1_AAAAAToe46wA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -165,7 +165,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/ad5988ac08ec86468e35b.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/cef02dea4b95d39ad0890.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
